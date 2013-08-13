@@ -1,19 +1,20 @@
 package capitulo3;
 
 import java.util.Scanner;
-import java.math.BigFloat;
+import java.lang.Math;
 
 public class Exercicio16 {
 	public static void main (String[] args){
 		Scanner scanner = new Scanner(System.in);
-		float cat1, cat2, hip;
-		BigFloat bi = new BigFloat("2.0");  
-		System.out.println("Digite os dois catetos: ");
-		cat1 = scanner.nextFloat();
-		cat2 = scanner.nextFloat();
-		hip = bi.pow(cat1) + bi.pow(cat2);
-		  
-		
+		/*double cat1, cat2, hip;*/
+		float teste;
+		/*System.out.println("Digite os dois catetos: ");
+		cat1 = scanner.nextDouble();
+		cat2 = scanner.nextDouble();
+		hip = Math.pow(cat1, 2.0) + Math.pow(cat2, 2.0);
+		Math.pow(hip, 2);*/
+		teste = Math.pow(2, 3);
+		System.out.println(teste);
 		scanner.close();
 	}
 }
